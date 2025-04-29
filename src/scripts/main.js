@@ -18,8 +18,8 @@ const ul = document.querySelector('ul');
 
 if (ul) {
   ul.innerHTML = '';
-}
 
-items.forEach((item) => {
-  ul.appendChild(item);
-});
+  items.forEach((item) => {
+    ul.appendChild(item);
+  });
+}
